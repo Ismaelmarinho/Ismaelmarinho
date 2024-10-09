@@ -1,0 +1,24 @@
+import express from "express"
+
+const PORT = 3000;
+
+const app = express();
+
+app.get("/route",(request, response)=>{
+    response.send("Olá está rodando!")
+})
+
+app.get("/nomParams",(request, response)=>{
+    const { filter, page } = request.query  //locahost:3000/fds?filter=informatica&&page=2
+    response.send(`Parametros nomeados são ${filter} e ${page}`)
+})
+
+app.get("/route/:id",(request, response)=>{
+    const { id } = request.params
+    response.send("O ID dá rota é "+ id)
+})
+
+app.listen( PORT?? 3000, ()=>{
+    console.log(`Server is running! In port ${PORT}`)
+})
+console.log("Hello rld!")
