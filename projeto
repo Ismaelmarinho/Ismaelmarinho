@@ -22,3 +22,6 @@ app.listen( PORT?? 3000, ()=>{
     console.log(`Server is running! In port ${PORT}`)
 })
 console.log("Hello rld!")
+
+
+2. git add nome-arquivo.txt
