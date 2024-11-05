@@ -16,6 +16,6 @@
 
 <p align="left">
   <a href="#" title="Gmail">
-  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=ismaelmarinho0810@gmail.com" alt="Gmail"/></a>
+  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=[ismaelmarinho0810@gmail.com](https://mail.google.com/mail/u/0/#inbox)" alt="Gmail"/></a>
 
 </p>
